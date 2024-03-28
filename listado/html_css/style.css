@@ -1,0 +1,23 @@
+
+
+.segmentos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    justify-content: center;
+    background-color: gray;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+
+.segmento {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+
+
