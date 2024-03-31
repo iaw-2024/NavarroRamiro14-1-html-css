@@ -31,6 +31,10 @@ input[type="text"]{
 .radio-container {
     display: inline-block; /* Para que los elementos se alineen en línea */
     margin-right: 20px; /* Espacio entre cada botón de radio y su etiqueta */
+    border: 1px solid #ccc; /* Añadir un delineado alrededor del contenedor */
+    border-radius: 4px; /* Añadir bordes redondeados al contenedor */
+    padding: 5px; /* Añadir un poco de espacio interno al contenedor */
+    text-align: center; /* Centrar el contenido del contenedor */
 }
 
 /* Estilo para los botones de radio */
