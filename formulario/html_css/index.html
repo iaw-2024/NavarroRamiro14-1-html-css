@@ -5,14 +5,46 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>FORM HTML</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="form_style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
-        <title>HTML-CSS</title>
     </head>
     <body>
-        
+        <h1>Formulario</h1>
+        <h2>Ingresa los datos de tu auto favorito</h2>
+        <div class="form-container">
+        <form>
+            <label for="car_name">Auto:</label><br>
+            <input type="text" id="car_name" name="car_name"><br>
+            <label for="car_hp">HP:</label><br>
+            <input type="text" id="car_hp" name="car_hp"><br>
+            <label for="car_speed">0-100 km/h:</label><br>
+            <input type="text" id="car_speed" name="car_speed"><br>
+            <label for="car_torque">Torque:</label><br>
+            <input type="text" id="car_torque" name="car_torque"><br>
+
+            <div></div>
+
+            <div class="radio-container">
+                <label for="awd">AWD</label>
+                <input type="radio" id="awd" name="traccion" value="AWD">
+            </div>
+            <div class="radio-container">
+                <label for="fwd">FWD</label>
+                <input type="radio" id="fwd" name="traccion" value="FWD">
+            </div>
+            <div class="radio-container">
+                <label for="rwd">RWD</label>
+                <input type="radio" id="rwd" name="traccion" value="RWD">
+            </div>
+            
+
+            <div></div>
+
+            <input type="submit" value="Submit" class="submit-button">
+          </form>
+        </div>
     </body>
 </html>
