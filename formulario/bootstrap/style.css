@@ -1,0 +1,23 @@
+/* Estilos personalizados para el formulario */
+body {
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.section-container {
+  margin-bottom: 20px;
+}
+
+/* Estilos para los radios y checks inline */
+.form-check-inline {
+  margin-right: 10px;
+}
+
+/* Estilo para el botón submit */
+.btn-primary {
+  margin-top: 20px;
+}
+
