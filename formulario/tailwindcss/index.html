@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind FORMS</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.0.8/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100">
+    <h1 class="text-3xl text-center my-8">Ficha Técnica</h1>
+    <form class="max-w-md mx-auto bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+        <div class="mb-4">
+            <label class="block text-gray-700 text-sm font-bold mb-2" for="car_name">Auto:</label>
+            <input type="text" id="car_name" placeholder="Nombre del vehículo" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+        </div>
+        <div class="mb-4">
+            <label class="block text-gray-700 text-sm font-bold mb-2" for="car_hp">HP:</label>
+            <input type="text" id="car_hp" placeholder="Caballos de fuerza" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+        </div>
+        <div class="mb-4">
+            <label class="block text-gray-700 text-sm font-bold mb-2" for="car_speed">0-100 km/h:</label>
+            <input type="text" id="car_speed" placeholder="Velocidad" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+        </div>
+        <div class="mb-4">
+            <label class="block text-gray-700 text-sm font-bold mb-2" for="car_torque">Torque:</label>
+            <input type="text" id="car_torque" placeholder="Torque" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+        </div>
+        <div class="mb-4">
+            <h3 class="text-lg font-bold">Tracción</h3>
+            <div class="flex items-center">
+                <input class="mr-2 leading-tight" type="radio" name="traccion" id="fwd" value="FWD">
+                <label class="text-sm" for="fwd">FWD</label>
+            </div>
+            <div class="flex items-center">
+                <input class="mr-2 leading-tight" type="radio" name="traccion" id="rwd" value="RWD">
+                <label class="text-sm" for="rwd">RWD</label>
+            </div>
+            <div class="flex items-center">
+                <input class="mr-2 leading-tight" type="radio" name="traccion" id="awd" value="AWD">
+                <label class="text-sm" for="awd">AWD</label>
+            </div>
+        </div>
+        <div class="mb-4">
+            <h3 class="text-lg font-bold">Segmento</h3>
+            <div class="flex items-center">
+                <input class="mr-2 leading-tight" type="radio" name="segmento" id="sedan" value="Sedan">
+                <label class="text-sm" for="sedan">Sedan</label>
+            </div>
+            <div class="flex items-center">
+                <input class="mr-2 leading-tight" type="radio" name="segmento" id="coupe" value="Coupe">
+                <label class="text-sm" for="coupe">Coupe</label>
+            </div>
+            <div class="flex items-center">
+                <input class="mr-2 leading-tight" type="radio" name="segmento" id="hatchback" value="Hatchback">
+                <label class="text-sm" for="hatchback">Hatchback</label>
+            </div>
+        </div>
+        <div class="mb-4">
+            <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Submit</button>
+        </div>
+    </form>
+
+    <script src="https://cdn.tailwindcss.com/"></script>
+</body>
+
+</html>

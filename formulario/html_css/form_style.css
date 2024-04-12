@@ -1,0 +1,72 @@
+h1, h2{
+    text-align: center;
+}
+body{
+    background-color: #f2f2f2;
+    font-family: "Roboto",static;
+    font-size: large;
+    margin: 0;
+    padding: 0;
+}
+
+
+input[type="text"]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-container {
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+    max-width: 90%; /* Establecer un ancho máximo para el contenedor */
+    padding: 0 20px; /* Agregar espacio interno a la izquierda y derecha */
+}
+
+
+/* Estilo para los contenedores de los botones de radio y etiquetas */
+.radio-container {
+    display: inline-block; /* Para que los elementos se alineen en línea */
+    margin-right: 20px; /* Espacio entre cada botón de radio y su etiqueta */
+    border: 1px solid #ccc; /* Añadir un delineado alrededor del contenedor */
+    border-radius: 4px; /* Añadir bordes redondeados al contenedor */
+    padding: 5px; /* Añadir un poco de espacio interno al contenedor */
+    text-align: center; /* Centrar el contenido del contenedor */
+}
+
+/* Estilo para los botones de radio */
+.radio-container input[type="radio"] {
+    display: inline-block; /* Asegura que los botones de radio se alineen en línea */
+    vertical-align: middle; /* Para alinear verticalmente con las etiquetas */
+}
+
+/* Estilo para las etiquetas de los botones de radio */
+.radio-container label {
+    display: inline-block; /* Para que las etiquetas se alineen en línea */
+    vertical-align: middle; /* Para alinear verticalmente con los botones de radio */
+    margin-bottom: 0; /* Elimina el margen inferior predeterminado */
+}
+.radio-container label:hover {
+    font-weight: bold; /* Cambiar el peso de la fuente al pasar el mouse */
+}
+
+.submit-button {
+    display: block; /* Convertir el botón en un elemento de bloque */
+    margin-top: 20px; /* Añadir espacio encima del botón */
+    padding: 10px 20px; /* Ajustar el relleno del botón */
+    background-color: #007bff; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    border: none; /* Eliminar el borde */
+    border-radius: 4px; /* Añadir bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor al pasar por encima */
+    font-size: 16px; /* Tamaño del texto */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.submit-button:hover {
+    background-color: #0056b3; /* Cambiar el color de fondo al pasar el mouse */
+}
+
